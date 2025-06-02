@@ -1,69 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Oumaima - Personal Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TechCon 2024</title>
 </head>
 <body>
 
   <header>
-    <h1>Oumaima</h1>
-    <p>Creative Developer | Motion Design & Front-end Enthusiast</p>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="#introduction">Introduction</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <main>
+    <article>
+      <h1>Welcome to TechCon 2024</h1>
+      <p>
+        TechCon 2024 is the premier technology conference bringing together innovators,
+        developers, and thought leaders from around the world. Join us for inspiring talks,
+        hands-on workshops, and networking opportunities that shape the future of tech.
+      </p>
 
-  <section id="introduction">
-    <h2>Introduction</h2>
-    <p>Hello! I’m Oumaima, a passionate creative working at the intersection of animation, video, and web. I’m currently learning front-end development to bring my motion designs to life on the web.</p>
-  </section>
+      <video controls width="600" aria-describedby="video-desc">
+        <source src="techcon-promo.mp4" type="video/mp4" />
+        <track src="techcon-subtitles.vtt" kind="subtitles" srclang="en" label="English" default />
+        Your browser does not support the video tag.
+      </video>
 
-  <section id="projects">
-    <h2>Projects</h2>
+      <p id="video-desc" hidden>
+        A promotional video for TechCon 2024 featuring event highlights and speakers.
+      </p>
 
-    <article class="project">
-      <h3>Creative Animation Reel</h3>
-      <p>A showcase of my best motion design and animation work using Blender and After Effects.</p>
-      <a href="https://github.com/umay97/JS-Fundamentals.git" target="_blank">View Project</a>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>25</td>
+            <td>USA</td>
+          </tr>
+          <tr>
+            <td>Emily</td>
+            <td>28</td>
+            <td>Canada</td>
+          </tr>
+          <tr>
+            <td>Michael</td>
+            <td>32</td>
+            <td>Australia</td>
+          </tr>
+          <tr>
+            <td>Sophia</td>
+            <td>21</td>
+            <td>UK</td>
+          </tr>
+        </tbody>
+      </table>
     </article>
 
-    <article class="project">
-      <h3>Interactive Portfolio Website</h3>
-      <p>A responsive portfolio site created with HTML, CSS, and JavaScript to display my animation projects.</p>
-      <a href="https://github.com/umay97/My_First_Portfolio.git" target="_blank">View Project</a>
-    </article>
-
-  </section>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m a creative designer with a love for color, motion, and interactivity. My background is in video editing and animation, and I’m expanding my skills into web development to build more dynamic and expressive websites.</p>
-    <p>Skills include:</p>
-    <ul>
-      <li>Blender, After Effects</li>
-      <li>HTML, CSS, JavaScript</li>
-      <li>UI/UX Design & Storyboarding</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email me at: <a href="mailto:oumaimaber97@gmail.com">oumaimaber97@gmail.com</a></p>
-    <p>
-      <a href="linkedin.com/in/oumaima-be-a24779364/" target="_blank">LinkedIn</a> |
-      <a href="https://github.com/umay97" target="_blank">GitHub</a>
-    </p>
-  </section>
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
 
   <footer>
-    <p>&copy; 2024 Umay_ber</p>
+    <p>Made by YOUR NAME - <a href="https://your-link.com" target="_blank">here</a>.</p>
   </footer>
 
 </body>
